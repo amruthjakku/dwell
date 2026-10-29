@@ -1,0 +1,11 @@
+{
+  "name": "dwell",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dwell — cited fault answers for packaging-machine service teams: BM25 retrieval over manuals and service history behind a confidence gate.",
+  "scripts": {
+    "ask": "node src/cli.js",
+    "eval": "node eval/run.js"
+  }
+}

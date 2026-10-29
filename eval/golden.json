@@ -1,0 +1,107 @@
+[
+  {
+    "id": "q01",
+    "question": "H 300 alarm 47 seals not holding vacuum on 200 micron film",
+    "expect": ["h300-sealing", "h300-vacuum", "error-codes"],
+    "kind": "answer",
+    "note": "The canonical demo question: alarm 47 + seal symptom."
+  },
+  {
+    "id": "q02",
+    "question": "R 245 film slip and print registration drift at high line speed",
+    "expect": ["r245-film", "error-codes"],
+    "kind": "answer",
+    "note": "Transport symptom, no alarm number given. The alarm 77 taxonomy entry is an accepted second source because it names the same encoder coupling."
+  },
+  {
+    "id": "q03",
+    "question": "T 700 alarm 31 tray jam at infeed",
+    "expect": ["t700-sealing", "error-codes"],
+    "kind": "answer",
+    "note": "Traysealer infeed fault."
+  },
+  {
+    "id": "q04",
+    "question": "H 300 alarm 44 seal temperature deviation repeats after thermocouple replacement",
+    "expect": ["h300-sealing"],
+    "kind": "answer",
+    "note": "Tests that the gate accepts a less common code."
+  },
+  {
+    "id": "q05",
+    "question": "residual oxygen too high on T 700 despite correct gas pressure",
+    "expect": ["t700-sealing"],
+    "kind": "answer",
+    "note": "Quality symptom, no alarm."
+  },
+  {
+    "id": "q06",
+    "question": "how often do I replace the vacuum pump vanes on an H 300",
+    "expect": ["h300-vacuum"],
+    "kind": "answer",
+    "note": "Maintenance interval question."
+  },
+  {
+    "id": "q07",
+    "question": "gripper chain tension setting R 245",
+    "expect": ["r245-film"],
+    "kind": "answer",
+    "note": "Short question, few terms."
+  },
+  {
+    "id": "q08",
+    "question": "alarm 49 seal bar wear limit reached",
+    "expect": ["error-codes", "h300-sealing"],
+    "kind": "answer",
+    "note": "No machine named; taxonomy doc should carry it."
+  },
+  {
+    "id": "q09",
+    "question": "film bridging between cavities, always in the same position",
+    "expect": ["r245-film"],
+    "kind": "answer",
+    "note": "No machine, no alarm, descriptive symptom only."
+  },
+  {
+    "id": "q10",
+    "question": "how many metres of chamber gasket does the H 300 need",
+    "expect": ["h300-vacuum"],
+    "kind": "answer",
+    "note": "Specific fact lookup."
+  },
+  {
+    "id": "q11",
+    "question": "Fehler 47 Siegelnaht undicht H 300",
+    "expect": ["h300-sealing", "h300-vacuum", "error-codes"],
+    "kind": "answer",
+    "note": "German query against English corpus: tests the lexical bridge."
+  },
+  {
+    "id": "q12",
+    "question": "how do I connect the H 300 to our SAP system",
+    "expect": [],
+    "kind": "abstain",
+    "note": "Out of scope: integration question, not machine knowledge."
+  },
+  {
+    "id": "q13",
+    "question": "what does a new R 245 cost and what is the delivery time",
+    "expect": [],
+    "kind": "abstain",
+    "note": "Commercial question, not in the service corpus."
+  },
+  {
+    "id": "q14",
+    "question": "what is the torque for the C 400 chamber lid hinge",
+    "expect": [],
+    "kind": "abstain",
+    "note": "C 400 is not in the corpus. Must not borrow H 300 content."
+  },
+  {
+    "id": "q15",
+    "question": "how many employees does MULTIVAC have in India",
+    "expect": [],
+    "kind": "abstain",
+    "note": "Company question, not machine knowledge."
+  }
+]

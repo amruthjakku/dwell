@@ -1,0 +1,14 @@
+[
+  { "part_no": "105420118", "description": "Seal bar 320 mm", "machines": ["H 300"], "stock": 4, "price_eur": 418.00, "supersedes": [] },
+  { "part_no": "105420126", "description": "PTFE cover set, seal bar (pack of 5)", "machines": ["H 300"], "stock": 12, "price_eur": 74.50, "supersedes": [] },
+  { "part_no": "105420204", "description": "Cartridge heater 230 V, 400 W", "machines": ["H 300"], "stock": 6, "price_eur": 96.20, "supersedes": ["105420199"] },
+  { "part_no": "105330410", "description": "Vacuum pump vane set (7 pieces)", "machines": ["H 300"], "stock": 3, "price_eur": 212.00, "supersedes": ["105330388"] },
+  { "part_no": "105330418", "description": "Vacuum pump gasket kit", "machines": ["H 300"], "stock": 8, "price_eur": 58.90, "supersedes": [] },
+  { "part_no": "105330527", "description": "Chamber gasket profile, per metre", "machines": ["H 300"], "stock": 22, "price_eur": 41.30, "supersedes": [] },
+  { "part_no": "105330633", "description": "Exhaust filter element", "machines": ["H 300"], "stock": 15, "price_eur": 33.80, "supersedes": [] },
+  { "part_no": "104220315", "description": "Gripper spring (pack of 10)", "machines": ["R 245"], "stock": 9, "price_eur": 63.40, "supersedes": [] },
+  { "part_no": "104220518", "description": "Forming heater element 2.5 kW", "machines": ["R 245"], "stock": 2, "price_eur": 287.00, "supersedes": [] },
+  { "part_no": "107110240", "description": "Seal insert 190 x 140 mm", "machines": ["T 700"], "stock": 5, "price_eur": 168.00, "supersedes": [] },
+  { "part_no": "107110258", "description": "Seal insert 227 x 178 mm", "machines": ["T 700"], "stock": 1, "price_eur": 184.00, "supersedes": [] },
+  { "part_no": "107110366", "description": "Gas lance O-ring set (pack of 20)", "machines": ["T 700"], "stock": 14, "price_eur": 46.70, "supersedes": [] }
+]
